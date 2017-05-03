@@ -6,6 +6,8 @@
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 
+window.Highcharts = require('highcharts');
+
 if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports){
   module.exports = 'highcharts-ng';
 }
